@@ -1,2 +1,11 @@
-# Assignment---4.3
-Assignment - 4.3
+Create a box and whisker plot by class using mtcars dataset.
+Bar_and_Whisker_plot<- par(mfrow = c(3,3))
+boxplot(mtcars$mpg, main = "mpg")
+boxplot(mtcars$cyl, main = "cyl")
+boxplot(mtcars$hp, main = "hp")
+boxplot(mtcars$drat, main = "drat")
+boxplot(mtcars$qsec, main = "qsec")
+boxplot(mtcars$vs, main = "vs")
+boxplot(mtcars$am, main = "am")
+boxplot(mtcars$gear, main = "gear")
+boxplot(mtcars$carb, main = "carb")
